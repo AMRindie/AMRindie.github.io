@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-
+    scale=1.0">
+    <title>GAMES  PAGE</title>
+    <link rel="icon" type="image/x-icon" href="/images/M2022October26Nobg.png">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="Sub-header">
+     <nav>
+        <a href="index.html"><img src="images/M2022October26Nobg.png"></a>
+         <div class="nav-links" id="navLinks">
+             <ul>
+                <li><a href="index.html">HOME</a></1li>
+                <li><a href="about.html">ABOUT</a></1li>
+                <li><a href="news.html">NEWS</a></1li>
+                <li><a href="art.html">ART</a></1li>
+                <li><a href="games.html">GAMES</a></1li>
+             </ul>
+         </div>
+     </nav>
+     
+     <div class="text-box">
+      
+        <h1>AMR GAMES</h1>
+
+     </div>
+
+    </section>
+
+    <!----Games---->
+
+    
+    <section class="Games">
+        
+        <h1>My Games</h1>
+        <p>These are all of my games press To go to the game page</p>
+        <i onclick="GamePage2()" >
+            <div class="row2">
+
+                <div class="Games-col2">
+                    <img src="images/M.png">
+                </div>
+                <p>old Ashes is a Game about a War That Happend in 1996 And You The Main Charechter Whants To Know The Truth</p>
+                <h1>20??/??/??</h1>
+    
+            </div>
+        </i>
+
+        
+
+        <i onclick="GamePage1()" >
+            <div class="row2">
+
+                <div class="Games-col2">
+                    <img src="images/Rogun3d.png">
+                </div>
+                <p>You'r in a lab all you have to do is to break red cubes</p>
+                <h1>2022/october/18</h1>
+    
+            </div>
+        </i>
+
+
+        <i onclick="GamePage3()" >
+            <div class="row2">
+
+                <div class="Games-col2">
+                    <img src="images/DODOLOGO.png">
+                </div>
+                <p>No Main Objective</p>
+                <h1>2022/october/07</h1>
+    
+            </div>
+        </i>
+
+        <i onclick="GamePage4()" >
+            <div class="row2">
+
+                <div class="Games-col2">
+                    <img src="images/DirtySea 512.png">
+                </div>
+                <p>You'r a fish eat pills to get points</p>
+                <h1>2021/November/14</h1>
+    
+            </div>
+        </i>
+
+        <i onclick="GamePage5()" >
+            <div class="row2">
+
+                <div class="Games-col2">
+                    <img src="images/The Portal.png">
+                </div>
+                <p>No Main Objective</p>
+                <h1>2021/march/08</h1>
+    
+            </div>
+        </i>
+
+        <i onclick="GamePage6()" >
+            <div class="row2">
+
+                <div class="Games-col2">
+                    <img src="images/The Secert.png">
+                </div>
+                <p>No Main Objective</p>
+                <h1 class="FontDec">2021/September/07</h1>
+    
+            </div>
+        </i>
+        
+        
+        
+
+   </section>
+    
+
+   <!------ Art ----->
+
+    
+   
+   <!------Foter------>
+
+   <section class="footer">
+
+    <div class="icons">
+        <i class="fa fa-twitter" onclick="OpneTwitter()" ></i>
+        <i class="fa fa-youtube" onclick="OpneYoutube()" ></i>
+        <i class="fa fa-instagram" onclick="OpneInsta()" ></i>
+    </div>
+    <p>Made With Love</p>
+   </section>
+
+<!------JavaScript Open Menu------->
+
+<script type="text/javascript">
+var counter = 1;
+setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if(counter > 4){
+        counter = 1;
+    }
+}, 5000);
+</script>
+
+<Script>
+
+   var navLinks = document.getElementById("navLinks")
+   
+   function OpneTwitter(){
+      open("https://twitter.com/AMR_Indie")
+   }
+   
+   function GamePage2(){
+      open("https://devdevil.itch.io/rogun")
+   }
+
+   function GamePage2(){
+      open("https://devdevil.itch.io/oldashes")
+   }
+
+   function GamePage3(){
+      open("https://devdevil.itch.io/dodo-by-amr")
+   }
+
+   function GamePage4(){
+      open("https://devdevil.itch.io/dirtysea")
+   }
+
+   function GamePage5(){
+      open("https://devdevil.itch.io/portal")
+   }
+
+   function GamePage6(){
+      open("https://devdevil.itch.io/thesecret")
+   }
+
+   function OpneYoutube(){
+      open("https://www.youtube.com/channel/UCUVaZc_DEAMbumB2yuMFp7w")
+   }
+
+   function OpneInsta(){
+      open("https://www.instagram.com/amr_indie/")
+   }
+
+   function OpneMenu(){
+       navLinks.style.right="0"
+   }
+
+   function HideMenu(){
+       navLinks.style.right="-2000px"
+   }
+
+</Script>
+
+
+</body>
+</html>
