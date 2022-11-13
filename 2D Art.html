@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-
+    scale=1.0">
+    <title>2D Page</title>
+    <link rel="icon" type="image/x-icon" href="/images/M2022October26Nobg.png">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="Sub-headerArt">
+     <nav>
+        <a href="index.html"><img src="images/M2022October26Nobg.png"></a>
+         <div class="nav-linksA" id="navLinks">
+             <ul>
+                <li><a href="art.html">Back</a></1li>
+             </ul>
+         </div>
+     </nav>
+     
+     <div class="text-box">
+      
+        <h1>2D Art</h1>
+
+     </div>
+
+    </section>
+
+    <!----Games---->
+
+    
+    
+    
+
+   <!------ Art ----->
+
+   <section class="Art">
+
+    <h1>Art</h1>
+    <p>My Drwaing With Date</p>
+
+    <div class="row2">
+        <div class="row2">
+            <div class="Art-col">
+                <img src="images/im1.png">
+                <div>
+                    <h3>December/8/2021</h3>
+                </div>
+            </div>
+    
+        <div class="row2">
+            <div class="Art-col">
+                <img src="images/im2.png">
+                <div>
+                    <h3>December/25/2021</h3>
+                </div>
+            </div>
+    
+            <div class="Art-col">
+                <img src="images/im16.png">
+                <div>
+                    <h3>January/30/2021</h3>
+                </div>
+            </div>
+    
+            <div class="Art-col">
+                <img src="images/im4.png">
+                <div>
+                    <h3>June/9/2022</h3>
+                </div>
+            </div>
+          
+        </div>
+    
+        <div class="Art-col">
+            <img src="images/im5.png">
+            <div>
+                <h3>March/9/2022</h3>
+            </div>
+        </div>
+      
+    </div>
+    
+    <div class="Art-col">
+        <img src="images/im14.png">
+        <div>
+            <h3>May/5/2022</h3>
+        </div>
+    </div>
+    
+    </div>
+    
+    <div class="Art-col">
+        <img src="images/im13.png">
+        <div>
+            <h3>May/9/2022</h3>
+        </div>
+    </div>
+    
+    </div>
+    
+    <div class="Art-col">
+        <img src="images/im12.png">
+        <div>
+            <h3>April/11/2022</h3>
+        </div>
+    </div>
+    
+    </div>
+    
+    <div class="Art-col">
+        <img src="images/im11.png">
+        <div>
+            <h3>November/11/2022</h3>
+        </div>
+    </div>
+    
+    </div>
+    
+    <div class="Art-col">
+        <img src="images/im10.png">
+        <div>
+            <h3>June/19/2022</h3>
+        </div>
+    </div>
+    
+    </div>
+    </div>
+   
+   <!------Foter------>
+
+   <section class="footer">
+
+    <div class="icons">
+        <i class="fa fa-twitter" onclick="OpneTwitter()" ></i>
+        <i class="fa fa-youtube" onclick="OpneYoutube()" ></i>
+        <i class="fa fa-instagram" onclick="OpneInsta()" ></i>
+    </div>
+    <p>Made With Love</p>
+   </section>
+
+<!------JavaScript Open Menu------->
+
+<script type="text/javascript">
+var counter = 1;
+setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if(counter > 4){
+        counter = 1;
+    }
+}, 5000);
+</script>
+
+<Script>
+
+   var navLinks = document.getElementById("navLinks")
+   
+   function OpneTwitter(){
+      open("https://twitter.com/AMR_Indie")
+   }
+   
+   function GamePage2(){
+      open("https://devdevil.itch.io/rogun")
+   }
+
+   function GamePage2(){
+      open("https://devdevil.itch.io/oldashes")
+   }
+
+   function GamePage3(){
+      open("https://devdevil.itch.io/dodo-by-amr")
+   }
+
+   function GamePage4(){
+      open("https://devdevil.itch.io/dirtysea")
+   }
+
+   function GamePage5(){
+      open("https://devdevil.itch.io/portal")
+   }
+
+   function GamePage6(){
+      open("https://devdevil.itch.io/thesecret")
+   }
+
+   function OpneYoutube(){
+      open("https://www.youtube.com/channel/UCUVaZc_DEAMbumB2yuMFp7w")
+   }
+
+   function OpneInsta(){
+      open("https://www.instagram.com/amr_indie/")
+   }
+
+   function OpneMenu(){
+       navLinks.style.right="0"
+   }
+
+   function HideMenu(){
+       navLinks.style.right="-2000px"
+   }
+
+</Script>
+
+
+</body>
+</html>
