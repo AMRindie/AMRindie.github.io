@@ -163,17 +163,26 @@ body {
  h4 {
     font-size: 30px;
  }
+ .text-box h1{
+    font-size: 100px;
+ }
+ .text-box p {
+    font-size: 30px;
+ }
  .header{
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/AMR2022October26.png);
-    background-size: 130%;
+    background-size: 100%;
     background-repeat: no-repeat;
  }
  nav img{
-    width: 200px;
+    width: 250px;
 }
 
 .NewsBig img{
     background: transparent;
+}
+.BUTON{
+    font-size: 30px;
 }
 }
 
@@ -361,9 +370,50 @@ h3{
     transition: 1s;
     border: #d0bddb;
 }
+
+
+.ArtH-col{
+    flex-basis: 31%;
+    background: transparent;
+    border-radius: 10px;
+    margin-bottom: 20px 12px;
+    box-sizing: border-box;
+    transition: 1s;
+    border: #f3ddff;
+}
+.ArtH-col h3{
+    font-size: 20PX;
+    display: block; 
+    font-weight: 600;
+    text-decoration: underline;
+ }
+ .ArtH-col:hover{
+     box-shadow: 0 0 20px 0px rgba(63, 63, 63, 0.5);
+     border-radius: 30px;
+     background: #cbfaf2;
+     box-shadow: 0 0 20px 0px rgba(63, 63, 63, 0.5);
+     border-radius: 30px;
+     
+ }
+ 
+ .ArtH-col img {
+     width: 90%;
+     transition: 0.5s;
+     border-radius: 10px;
+     
+ }
+ .ArtH-col img:hover{
+     width: 100%;
+     border-radius: 30px;
+     
+ }
+
+
 .Art-col h3{
    font-size: 20PX;
    display: block; 
+   font-weight: 600;
+   text-decoration: underline;
 }
 .Art-col:hover{
     box-shadow: 0 0 20px 0px rgba(63, 63, 63, 0.5);
@@ -371,6 +421,7 @@ h3{
     background: #cbfaf2;
     box-shadow: 0 0 20px 0px rgba(63, 63, 63, 0.5);
     border-radius: 30px;
+    
 }
 
 .Art-col img {
@@ -728,7 +779,7 @@ h3{
     padding: 40px;
     display: flex;
     justify-content: space-between;
-    background-color: #c0f3f5;
+    background-color: #f5daff;
     width: 60%;
     margin: 10rem auto 0 auto;
     border-radius: 30px;
@@ -737,7 +788,7 @@ h3{
     padding: 40px;
     display: flex;
     justify-content: space-between;
-    background-color: #c0f3f5;
+    background-color: #f5daff;
     width: 70%;
     margin: 10rem auto 0 auto;
     border-radius: 30px;
@@ -749,8 +800,8 @@ h3{
 }
 @media(max-width: 1500px){
     .NewsBig img{
-        height: 250px;
-
+        width: 50%;
+        height: 10vh;
     }
     .News img{
         width: 60%;
@@ -761,13 +812,22 @@ h3{
     .NewsBig{
         width: 80%;
     }
+    .nav-linksA  ul li a {
+        font-size: 30px;
+    }
+    .nav-linksA  ul li a:hover {
+        font-size: 35px;
+    }
+    .nav-links  ul li a:hover {
+        font-size: 35px;
+    }
 }
 .NewsBig h1{
   margin: 0;
   color: black;
 }
 .NewsBig p{
-    color: black;
+    color: rgb(0, 0, 0);
     margin-right: 15px;
 }
 
