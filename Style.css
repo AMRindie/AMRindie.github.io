@@ -52,6 +52,8 @@ nav img:hover {
 .nav-links  ul li a:hover {
     color: rgb(223, 194, 223);
     font-size: 25px;
+    font-weight: 100;
+    transition: 1s;
 }
 .nav-links  ul li::after{
     content: '';
@@ -77,8 +79,8 @@ nav img:hover {
     text-align: center;
 }
 .text-box h1{
-    font-size: 60px;
-
+    font-size: 50px;
+    
 }
 .text-box p{
     margin: 10px 0 40px;
@@ -104,32 +106,34 @@ nav img:hover {
      transition: 1s;
      font-size: 25px;
  }
-
 .BUTON{
    display: inline-block;
    text-decoration: none;
    color: rgb(255, 255, 255);
-   border: 1px solid gray;
+   border: 1px solid rgb(129, 170, 224);
    padding: 12px 34px;
    margin: 6px;
    font-size: 16px;
-   background: transparent;
+   background:  transparent;
    position: relative;
    cursor: pointer;
    transition: 0.5s;
    border-radius: 8px;
    margin-bottom: 8px 5px;
+    background-size: 200%;
 }
 .BUTON:hover{
-    border: 1px solid rgb(104, 104, 104);
-    background: rgb(105, 105, 105);
-    transition: 1s;
-    border-radius: 20px;
-    margin-bottom: 20px 12px;
-    font-size: 20px;
+
+   border: 1px solid rgb(129, 170, 224);
+   background:  rgb(177, 255, 236);
+   transition: 1s;
+   border-radius: 20px;
+   margin-bottom: 20px 12px;
+   font-size: 20px;
+   font-weight: 900;
+   color: rgb(54, 54, 54);
+
 }
-
-
 nav .fa{
     display: none;
 }
@@ -876,6 +880,16 @@ h3{
     border: #a297a8;
 }
 
+::-webkit-scrollbar{
+    background: rgb(255, 255, 255);
+    width: 0.7em;
+}
 
+::-webkit-scrollbar-thumb{
+    background: rgb(110, 173, 255);
+    border-radius: 50vw;
+}
 
-
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(88, 160, 255);
+}
