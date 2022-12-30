@@ -11,7 +11,7 @@
     position: relative;
     height: 60vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/AMR2022October26.png);
+    background-image: linear-gradient(rgba(4,9,30,0.2),rgba(4, 9, 30, 0.2)),url(images/AMR2022October26.png);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -29,7 +29,7 @@ nav img{
     transition: 0.5s;
 }
 nav img:hover {
-    width: 160px;
+    width: 155px;
 
 }
 .nav-links{
@@ -258,10 +258,9 @@ p{
     justify-content: space-around;   
 }
 .row2{
-    margin: 5px 5px;
-    display: block;
-    justify-content: space-around;
-    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 5px;
 }
 
 .row2 p{
@@ -288,6 +287,8 @@ p{
     background: #d0bddb;
 }
 .Games-col2{
+    object-fit: cover;
+    object-position: center;    
     flex-basis: 31%;
     background: transparent;
     border-radius: 10px;
@@ -359,7 +360,7 @@ h3{
 /*------- art ------*/
 
 .Art{
-    width: 50%;
+    
     margin: auto;
     text-align: center;
     padding-top: 50px;
@@ -370,15 +371,36 @@ h3{
     background: transparent;
     border-radius: 10px;
     margin-bottom: 20px 12px;
+    margin-top: 10px;
     box-sizing: border-box;
     transition: 1s;
     border: #d0bddb;
 }
 
+.Art-col h3{
+    font-size: 20px;
+   display: block; 
+   font-weight: 700;
+   text-decoration: underline;
+}
+
+.Art-col img {
+    width: 90%;
+    transition: 0.5s;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+    height: 70%;
+}
+.Art-col img:hover{
+    width: 100%;
+    border-radius: 30px;
+    color: black;
+    height: 90%;
+}
 
 .ArtH-col{
     flex-basis: 31%;
-    background: transparent;
     border-radius: 10px;
     margin-bottom: 20px 12px;
     box-sizing: border-box;
@@ -409,37 +431,11 @@ h3{
  .ArtH-col img:hover{
      width: 100%;
      border-radius: 30px;
-     
+
  }
 
-
-.Art-col h3{
-   font-size: 20PX;
-   display: block; 
-   font-weight: 600;
-   text-decoration: underline;
-}
-.Art-col:hover{
-    box-shadow: 0 0 20px 0px rgba(63, 63, 63, 0.5);
-    border-radius: 30px;
-    background: #cbfaf2;
-    box-shadow: 0 0 20px 0px rgba(63, 63, 63, 0.5);
-    border-radius: 30px;
-    
-}
-
-.Art-col img {
-    width: 90%;
-    transition: 0.5s;
-    border-radius: 10px;
-}
-.Art-col img:hover{
-    width: 100%;
-    border-radius: 30px;
-}
 .layer{
     background-color: rgba(0, 0, 0, 0.2);
-    
     height: 100%;
     width: 90%;
     position: absolute;
@@ -804,11 +800,12 @@ h3{
 }
 @media(max-width: 1500px){
     .NewsBig img{
-        width: 50%;
-        height: 10vh;
+        width: 0%;
     }
     .News img{
-        width: 60%;
+        width: 50%;
+        object-fit: cover;
+        object-position: center;
     }
     .News{
         width: 80%;
