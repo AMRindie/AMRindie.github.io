@@ -1,0 +1,245 @@
+<--------- games -------->
+
+    <section class="Games">
+        
+        <h1>My Games</h1>
+        <p>These are all of my Games</p>
+        <div class="row2">
+
+            <div class="Games-col2">
+                <img src="images/M.png">
+            </div>
+            <p>old Ashes is a Game about A War That Happend in 1996 And YOu The Main Charechter Whants To Know The Truth</p>
+
+        </div>
+
+   </section>
+
+
+   <--------- games -------->
+
+
+<!--slider start-->
+        <div class="slider">
+            <div class="slides">
+                <!--radio buttons start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--radio buttons end-->
+                <!--slide images start-->
+                <div class="slide first">
+                    <img src="images/G1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/G2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/G3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/G5.png" alt="">
+                </div>
+                <!--slide images end-->
+                <!--autostart-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+                <!--autoend-->
+                <!--manulasstart-->
+                <div class="navgation-Manual" >
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!--Manualend-->
+            </div>
+        </div>
+        <!--slider end-->
+
+        Art start
+
+          <section class="Art">
+
+    <h1>Art</h1>
+    <p>My Drwaing With Date</p>
+
+    <div class="row2">
+        <div class="row2">
+            <div class="Games-col2">
+                <img src="images/im1.png">
+                <div>
+                    <h3>December/23/2021</h3>
+                </div>
+            </div>
+    
+        <div class="row2">
+            <div class="Games-col2">
+                <img src="images/im2.png">
+                <div>
+                    <h3>December/23/2021</h3>
+                </div>
+            </div>
+    
+            <div class="Games-col2">
+                <img src="images/im3.png">
+                <div>
+                    <h3>May/6/2022</h3>
+                </div>
+            </div>
+    
+            <div class="Games-col2">
+                <img src="images/im4.png">
+                <div>
+                    <h3>June 9 2022</h3>
+                </div>
+            </div>
+          
+        </div>
+    
+        <div class="Games-col2">
+            <img src="images/im5.png">
+            <div>
+                <h3>June 9 2022</h3>
+            </div>
+        </div>
+      
+    </div>
+    
+    <div class="Games-col2">
+        <img src="images/im6.png">
+        <div>
+            <h3>June 9 2022</h3>
+        </div>
+    </div>
+    
+    </div>
+    
+    <div class="Games-col2">
+        <img src="images/im7.png">
+        <div>
+            <h3>June 9 2022</h3>
+        </div>
+    </div>
+    
+    </div>
+    
+    <div class="Games-col2">
+        <img src="images/im8.png">
+        <div>
+            <h3>June 9 2022</h3>
+        </div>
+    </div>
+    
+    </div>
+    
+    <div class="Games-col2">
+        <img src="images/im9.png">
+        <div>
+            <h3>June 9 2022</h3>
+        </div>
+    </div>
+    
+    </div>
+    
+    <div class="Games-col2">
+        <img src="images/im10.png">
+        <div>
+            <h3>June 9 2022</h3>
+        </div>
+    </div>
+    
+    </div>
+    </div>
+
+    <section class="Art">
+
+        <h1>3d Renders</h1>
+        <p>I Have Been Doing Some 3d Renders</p>
+    
+        <div class="row2">
+            <div class="Games-col2">
+                <img src="images/Ren1.png">
+                <div>
+                    <h3>August/8/2022</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="Games-col2">
+                <img src="images/Ren2.png">
+                <div>
+                    <h3>June/3/2022</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="Games-col2">
+                <img src="images/Ren3.png">
+                <div>
+                    <h3>september/21/2022</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="Games-col2">
+                <img src="images/Ren4.png">
+                <div>
+                    <h3>September/28/2022</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="Games-col2">
+                <img src="images/Ren5.png">
+                <div>
+                    <h3>september/16/2022</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="Games-col2">
+                <img src="images/Ren6.png">
+                <div>
+                    <h3>January/12/2022</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="Games-col2">
+                <img src="images/Ren7.png">
+                <div>
+                    <h3>September/20/2022</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="Games-col2">
+                <img src="images/Ren.png">
+                <div>
+                    <h3>September/20/2022</h3>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+

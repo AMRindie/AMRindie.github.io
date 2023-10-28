@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-
+    scale=1.0">
+    <title>About Page</title>
+    <link rel="icon" type="image/x-icon" href="/images/M2022October26Nobg.png">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600;800&family=Nunito:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="Sub-headerAbout">
+     <nav>
+        <a href="index.html"><img src="images/M2022October26Nobg.png"></a>
+         <div class="nav-linksA" id="navLinks">
+             <ul>
+                <li><a href="index.html">Home</a></1li>
+                <li><a href="about.html">About</a></1li>
+                <li><a href="news.html">News</a></1li>
+                <li><a href="art.html">Art</a></1li>
+                <li><a href="games.html">Games</a></1li>
+                <li><a href="future.html">Future</a></1li>
+             </ul>
+         </div>
+     </nav>
+     
+     <div class="text-box">
+      
+        <h1>AMR Stands for Abdulrhman Mohammed Alrabiah</h1>
+        <p></p>
+
+     </div>
+
+    </section>
+
+    <!----About Me---->
+
+    <secton class="about-me">
+        <div class="row">
+            <div class="about-col">
+                <h1>About Me</h1>
+                <p>My Name is Abdulrhman Started Making Games In 2019 started Learning 3d in 2020. </p>
+            </div>
+            <div class="about-col">
+                <img src="images/M.png">
+                <img src="images/dertySeaLogo.png">
+                <img src="images/DODOLOGO.png">
+            </div>
+        </div>
+    </secton>
+
+    <secton class="about-me">
+        <div class="row">
+            <div class="about-col">
+                <h1>About AMR</h1>
+                <p>The Name AMR Took Multiple Changes on Them That I Remember Is BFD (Born For Dev) Same Gose for Logos </p>
+            </div>
+            <div class="about-col">
+                <img src="images/Logo.png">
+                <img src="images/Logo1.png">
+                <img src="images/M2022October26.png">
+            </div>
+        </div>
+    </secton>
+
+    <secton class="about-me">
+        <div class="row">
+            <div class="about-col">
+                <h1>How And Why I Started Developing</h1>
+                <p></p>
+            </div>
+            <div class="about-col">
+                <img src="images/UPBGE.png">
+                <img src="images/unreal.png">
+                <img src="images/Unity2.png">
+            </div>
+        </div>
+    </secton>
+    
+   <!------ Art ----->
+
+
+   
+   <!------Foter------>
+
+   <section class="footer"> 
+
+    <div class="icons">
+        <i class="fa fa-twitter" onclick="OpneTwitter()" ></i>
+        <i class="fa fa-youtube" onclick="OpneYoutube()" ></i>
+        <i class="fa fa-instagram" onclick="OpneInsta()" ></i>
+    </div>
+    <p>Made With Love AMR</p>
+   </section>
+
+<!------JavaScript Open Menu------->
+<Script>
+
+   var navLinks = document.getElementById("navLinks")
+   
+   function OpneTwitter(){
+      open("https://twitter.com/AMR_Indie")
+   }
+
+   function OpneYoutube(){
+      open("https://www.youtube.com/channel/UCUVaZc_DEAMbumB2yuMFp7w")
+   }
+
+   function OpneInsta(){
+      open("https://www.instagram.com/amr_indie/")
+   }
+
+   function OpneMenu(){
+       navLinks.style.right="0"
+   }
+
+   function HideMenu(){
+       navLinks.style.right="-200px"
+   }
+
+</Script>
+
+
+</body>
+</html>

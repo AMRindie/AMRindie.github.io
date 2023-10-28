@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-
+    scale=1.0">
+    <title>Games Page</title>
+    <link rel="icon" type="image/x-icon" href="/images/M2022October26Nobg.png">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600;800&family=Nunito:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="Sub-headerGames">
+     <nav>
+        <a href="index.html"><img src="images/M2022October26Nobg.png"></a>
+         <div class="nav-links" id="navLinks">
+             <ul>
+                <li><a href="index.html">Home</a></1li>
+                <li><a href="games.html">Games</a></1li>
+                <li><a href="news.html">News</a></1li>
+                <li><a href="news.html">Books</a></1li>
+             </ul>
+         </div>
+     </nav>
+     
+     <div class="text-box">
+      
+        <h1></h1>
+
+     </div>
+
+    </section>
+
+    <!----Games---->
+
+    
+    <section class="Games">
+        
+        <h1>My Games</h1>
+        <p>Press The Image To Go To Downloading Page</p>
+
+        <div class="row">
+
+
+                <div class="row">
+                    <div class="Games-col">
+                        <i onclick="GamePage1()" >
+                        <img src="images/M.png">
+                    </i>
+                        <h3>2022/06/09</h3> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="Games-col">
+                        <i onclick="GamePage2()" >
+                        <img src="images/The Empty.jpg">
+                    </i>
+                        <h3>20??/??/??</h3> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="Games-col">
+                        <i onclick="GamePage3()" >
+                        <img src="images/The Empty.png">
+                    </i>
+                        <h3>20??/??/??</h3> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="Games-col">
+                        <i onclick="GamePage4()" >
+                        <img src="images/The Empty.jpg">
+                    </i>
+                        <h3>20??/??/??</h3> 
+                    </div>
+                </div>
+
+
+        </div>
+
+
+   </section>
+   
+   <!------Foter------>
+
+   <section class="footer">
+
+    <div class="icons">
+        <i class="fa fa-twitter" onclick="OpneTwitter()" ></i>
+        <i class="fa fa-youtube" onclick="OpneYoutube()" ></i>
+        <i class="fa fa-instagram" onclick="OpneInsta()" ></i>
+    </div>
+    <p>Made With Love AMR</p>
+   </section>
+
+<!------JavaScript Open Menu------->
+
+<script type="text/javascript">
+var counter = 1;
+setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if(counter > 4){
+        counter = 1;
+    }
+}, 5000);
+</script>
+
+<Script>
+
+   var navLinks = document.getElementById("navLinks")
+   
+   function OpneTwitter(){
+      open("https://twitter.com/AMR_Indie")
+   }
+   
+   function GamePage2(){
+      open("https://devdevil.itch.io/the-empty")
+   }
+
+   function GamePage1(){
+      open("https://devdevil.itch.io/oldashes")
+   }
+
+   function GamePage3(){
+      open("https://devdevil.itch.io/dodo-by-amr")
+   }
+
+   function GamePage4(){
+      open("https://devdevil.itch.io/dirtysea")
+   }
+
+   function GamePage5(){
+      open("https://devdevil.itch.io/portal")
+   }
+
+   function GamePage6(){
+      open("https://devdevil.itch.io/thesecret")
+   }
+
+   function OpneYoutube(){
+      open("https://www.youtube.com/channel/UCUVaZc_DEAMbumB2yuMFp7w")
+   }
+
+   function OpneInsta(){
+      open("https://www.instagram.com/amr_indie/")
+   }
+
+   function OpneMenu(){
+       navLinks.style.right="0"
+   }
+
+   function HideMenu(){
+       navLinks.style.right="-2000px"
+   }
+
+</Script>
+
+
+</body>
+</html>
